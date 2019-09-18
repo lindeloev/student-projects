@@ -447,7 +447,7 @@ cumulative_trials = 0
 total_trials = (NONTARGETS_PER_BLOCK['practice'] + TARGETS_PER_BLOCK['practice'] + 1.5) * 4 + \
     (NONTARGETS_PER_BLOCK['pretest'] + TARGETS_PER_BLOCK['pretest'] + 1.5) * 5 + \
     (NONTARGETS_PER_BLOCK['posttest'] + TARGETS_PER_BLOCK['posttest'] + 1.5) * 5 + \
-    (NONTARGETS_PER_BLOCK['training'] + TARGETS_PER_BLOCK['training'] + 2)
+    (NONTARGETS_PER_BLOCK['training'] + TARGETS_PER_BLOCK['training'] + 2) * TRAINING_BLOCKS
 
 # Pretest
 show_instruction(instructions['welcome'])
